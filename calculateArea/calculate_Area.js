@@ -15,6 +15,6 @@ function calculateGrocery() {
         let name=id+i;
         amount += parseFloat(document.getElementById(name).value);
     }
-    document.getElementById('totalamount').innerText = `The total amount is: ${amount}`;
+    document.getElementById('totalamount').innerText = `The total amount is: $${amount}`;
     
 }
